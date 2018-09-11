@@ -115,7 +115,7 @@ class App extends Component {
         <div id="intro">
           <h1> Welcome to Reso </h1>
           <h4> Please input the tables you have. </h4>
-          <p> Do this by inputting the number of people in each table seperated by commas (e.g. 2, 3, 4) </p>
+          <p> Do this by inputting the number of people in each table seperated by commas in ascending order (e.g. 2, 3, 4) </p>
         </div>
         <form id="table_form" className={this.state.tablesFormSubmitted ? "hidden" : ""} onSubmit={this.handleSubmit}>
           <label>Table sizes: <input type="text" pattern="^[0-9]+(,( )?[0-9]+( )?)+$" value={this.state.tableValuesForm} onChange={this.handleChange}/></label>
