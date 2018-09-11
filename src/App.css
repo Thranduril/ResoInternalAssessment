@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+#intro{
+    padding-top: 5px;
+    padding-left: 25px;
+    font-family: 'Merriweather', serif;
+    background-color: bisque;
+    height: 150px;
+}
+
+.hidden{
+    display: none;
+}
+
+#table_form{
+    padding-left: 25px;
+    font-family: 'Merriweather', serif;
+    background-color: bisque;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+#reservation_form{
+    padding-left: 25px;
+    font-family: 'Merriweather', serif;
+    background-color: bisque;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-left: 25px;
+    font-family: 'Merriweather', serif;
+    background-color: bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tables {
+    min-height: 120px;
+    height: auto;
+    float: left;
+    width: 23%;
+    padding-left: 25px;
+    font-family: 'Merriweather', serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    outline: 5px;
+    border: 1px solid lightsalmon;
+    border-radius: 1px 10px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: lightsalmon;
+    border: none;
+    color: black;
+    padding: 3px 5px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    margin: 0px 5px;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    border-radius: 1px 5px;
+}
+
+input[type=text], select {
+    border: none;
+    color: black;
+    padding: 6px 5px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    margin: 3px 5px;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    border-radius: 1px 5px;
+}
+
+input[type=time], select {
+    border: none;
+    color: black;
+    padding: 3px 5px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    margin: 1px 5px;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    border-radius: 1px 5px;
+}
